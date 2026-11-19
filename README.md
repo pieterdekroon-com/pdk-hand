@@ -1,6 +1,6 @@
 # PDK Hand
 
-Pieter de Kroon's handwriting as a font. Written on paper with an Edding 141F, photographed, and turned into outlines by the scripts in this repository. Part of the [PDK design system](https://design.pieterdekroon.com).
+Pieter de Kroon's handwriting as a font. Written on paper, photographed, and turned into outlines by the scripts in this repository. Every pen becomes a style of the family; the first is Edding 141F. Part of the [PDK design system](https://design.pieterdekroon.com), where it belongs to the brand: all rights reserved.
 
 ![Feedback written in PDK Hand](specimen/feedback.png)
 
@@ -12,7 +12,7 @@ Pieter de Kroon's handwriting as a font. Written on paper with an Edding 141F, p
 | `fonts/ttf/PDKHand-Edding141F.ttf` | Apps on Windows that work better with TrueType |
 | `fonts/webfonts/PDKHand-Edding141F.woff2` | Websites, with `@font-face` |
 
-Family **PDK Hand**, style **Edding 141F**. A new pen becomes a new style in the same family.
+Family **PDK Hand**. Styles: **Edding 141F**. A new pen becomes a new style in the same family.
 
 ## What is in it
 
