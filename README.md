@@ -2,7 +2,7 @@
 
 Pieter de Kroon's handwriting as a font. Written on paper, photographed, and turned into outlines by the scripts in this repository. Every pen becomes a style of the family; the first is Edding 141F. Part of the [PDK design system](https://design.pieterdekroon.com), where it belongs to the brand: all rights reserved.
 
-![Feedback written in PDK Hand](specimen/feedback.png)
+![A note written in PDK Hand](specimen/feedback.png)
 
 ## Files
 
