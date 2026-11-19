@@ -1,0 +1,6 @@
+fonttools[woff]>=4.50
+numpy
+opencv-python-headless
+potracer
+pillow
+pillow-heif

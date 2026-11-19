@@ -1,0 +1,11 @@
+PDK Hand
+Copyright 2026 Pieter de Kroon. All rights reserved.
+
+The font software in this repository (the files in fonts/), the photographs in
+sources/photos/ and the letterforms they contain are the handwriting of
+Pieter de Kroon.
+
+No part of it may be used, copied, modified, embedded or distributed without
+prior written permission from Pieter de Kroon (https://pieterdekroon.com).
+
+The scripts in scripts/ may be read for reference.
