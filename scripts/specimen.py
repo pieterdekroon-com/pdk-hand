@@ -35,8 +35,6 @@ sheet('specimen/characters.png', [
     ('text', 'Ò Ó Ô Õ Ö Ù Ú Û Ü Ý Ÿ Š Ž Ø Œ Æ'),
     ('label', 'Symbols'),
     ('text', '→ ← ↑ ↓ ✓ ✗ + = % × < > • … – ~ # * € $ [ ] _ ◡̈'),
-    ('label', 'Joined letters, and shapes that change with the letter next to them'),
-    ('text', 'er et ch aa ij   tt totaal letter   Goed Gijs Groet'),
 ])
 def wrap(text, font, width):
     lines, line = [], ''
