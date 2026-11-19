@@ -7,7 +7,7 @@ INK, PAPER, RULE, MUTED = (33, 30, 27), (247, 242, 233), (224, 213, 195), (150, 
 LABEL = ImageFont.truetype('/usr/share/fonts/opentype/inter/Inter-Medium.otf', 22) if __import__('os').path.exists('/usr/share/fonts/opentype/inter/Inter-Medium.otf') else ImageFont.load_default()
 
 
-def sheet(path, lines, size=52, width=1600, lead=84):
+def sheet(path, lines, size=52, width=1600, lead=84, features=None):
     h = 60 + lead * len(lines)
     im = Image.new('RGB', (width, h), PAPER); d = ImageDraw.Draw(im)
     y = 30
@@ -19,7 +19,7 @@ def sheet(path, lines, size=52, width=1600, lead=84):
         else:
             f = ImageFont.truetype(FONT, size, layout_engine=ImageFont.Layout.RAQM)
             d.line([(40, y + int(size * 1.05)), (width - 40, y + int(size * 1.05))], fill=RULE, width=2)
-            d.text((60, y), text, font=f, fill=INK)
+            d.text((60, y), text, font=f, fill=INK, features=features)
         y += lead
     im.save(path)
 
@@ -35,7 +35,7 @@ sheet('specimen/characters.png', [
     ('text', 'Ò Ó Ô Õ Ö Ù Ú Û Ü Ý Ÿ Š Ž Ø Œ Æ'),
     ('label', 'Symbols'),
     ('text', '→ ← ↑ ↓ ✓ ✗ + = % × < > • … – ~ # * € $ [ ] _ ◡̈'),
-])
+], features=['-liga', '-calt'])  # every character on its own, no joined letters or alternates
 def wrap(text, font, width):
     lines, line = [], ''
     for word in text.split(' '):
